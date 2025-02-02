@@ -74,15 +74,19 @@ div{
     background-color: #FFFF00; 
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #FFFFFF;
-    border-bottom: 2px solid #FFFFFF;
+    border-width: 0px 0px 2px 5px;  
+    border-style: solid; 
+    border-color: white;  
+    color: #000000
+    /*border-left: 5px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;*/
 }
 .yellow p {
     color: #707070; 
 }
 
 .green {
-    background-color: #00EB00; 
+    background-color: #008500; 
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0 0;
